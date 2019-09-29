@@ -10,7 +10,7 @@ use App\BalanceTransaction;
 class PlayerController extends Controller
 {
     private const DEFAULT_BALANCE = 1000;
-    private const LONG_PROCESS = 5;
+    private const LONG_PROCESS = 30;
     private $player = false;
     private $player_id = false;
     private $balance = false;
